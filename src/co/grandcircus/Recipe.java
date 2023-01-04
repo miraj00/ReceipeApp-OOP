@@ -33,16 +33,11 @@ public class Recipe {
 	public Recipe() {
 		super();
 	}
-	public Recipe(String title, List<Ingredient> ingredients ) {
+	public Recipe(String title) {
 		super();
 		this.title = title;
 		this.ingredients = new ArrayList<>();
 		this.instructions = "N/A";
 	}
-	
-	
-	
-	
-	
 	
 }

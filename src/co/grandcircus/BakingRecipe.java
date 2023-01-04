@@ -15,6 +15,8 @@ public class BakingRecipe extends Recipe {
 		super();
 		this.title = title;
 		this.ovenTemperature = ovenTemperature;
+		this.ingredients = new ArrayList<>();                   // 
+		this.instructions = "N/A";								// 
 
 	}
 	
